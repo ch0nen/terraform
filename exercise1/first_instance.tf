@@ -8,7 +8,7 @@ provider "aws" {
 resource "aws_instance" "intro" {
     ami = "ami-05c42683296709b61"
     instance_type = "t3.micro"
-    availability_zone = "eu-north-1"
+    availability_zone = "eu-north-1a"
     key_name = "External Generated Keypair"
     vpc_security_group_ids = [ "sg-08be7929149af0abc" ]
     tags = {
