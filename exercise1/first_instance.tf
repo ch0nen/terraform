@@ -14,4 +14,5 @@ resource "aws_instance" "intro" {
     tags = {
       "Name" = "Dove-Instance"
       "Project" = "Dove"
+    }
 }
